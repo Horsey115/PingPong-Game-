@@ -287,6 +287,8 @@ public class Game {
                     m.g.setColor(new Color(255, 25, 0, (int)(240 * pauseReducingTransparency)));
                     break;
             }
+        } else {
+            m.g.setColor(new Color(255, 255, 255, (int)(240*pauseReducingTransparency)));
         }
         m.g.fillRect(player2.getX(), player2.getY(), Player.WIDTH, Player.HEIGHT);
         
