@@ -377,6 +377,8 @@ public class Game {
         player1.setStartPosition(0);
         player2.setStartPosition(1);
         setStartBallPosition((MainComponent.WINDOW_WIDTH - this.ball.getSize()) / 2,(MainComponent.WINDOW_HEIGHT - this.ball.getSize()) / 2);
+        messageTransparency = 255;
+        comebackCurrentTime = 0;
         this.isPaused = false;
         ball.isLaunched = false;
         player1_streak = 0;
